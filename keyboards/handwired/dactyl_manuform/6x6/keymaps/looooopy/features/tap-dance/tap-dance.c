@@ -29,7 +29,7 @@ qk_tap_dance_action_t tap_dance_actions[] = {
     [_TD_F11_SH] = ACTION_TAP_DANCE_DOUBLE(KC_F11, SH_TG),
 #endif
 #ifdef BOOTMAGIC_ENABLE
-    [_TD_F6_RST] = ACTION_TAP_DANCE_FN_ADVANCED_TIME(NULL, ql_finished, ql_reset, 275)
+    [_TD_F6_RST] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, ql_finished, ql_reset),
 #endif
 };
 
